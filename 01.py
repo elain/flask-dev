@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-#coding:utf-8
 
 from flask import Flask
 from flask import redirect
@@ -33,22 +32,6 @@ def header():
     response = make_response('<h1>This document carries a cookie!</h1>')
     response.set_cookie('answer','42')
     return response
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 if __name__ == '__main__':
