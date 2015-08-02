@@ -18,7 +18,7 @@ def user(name):
 
 @app.route('/re')
 def re():
-    return redirect('http://www.mi.com')
+    return redirect('http://www.elain.org')
 
 @app.route('/usr/<id>')
 def get_user(id):
